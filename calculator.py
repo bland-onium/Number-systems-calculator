@@ -9,9 +9,13 @@ n = (n.replace("0", " 0"));n = (n.replace("1", " 1"));n = (n.replace("2", " 2"))
 n = (n.replace("3", " 3"));n = (n.replace("4", " 4"));n = (n.replace("5", " 5"))
 n = (n.replace("6", " 6"));n = (n.replace("7", " 7"));n = (n.replace("8", " 8"))
 n = (n.replace("9", " 9"))
-while ("A" in n) or ("B" in n) or ("C" in n) or ("D" in n) or ("E" in n) or ("F" in n):
-    n = (n.replace("A", " 10"));n = (n.replace("B", " 11"));n = (n.replace("C", " 12"))
-    n = (n.replace("D", " 13"));n = (n.replace("E", " 14"));n = (n.replace("F", " 15"))
+while ("A" in n) or ("B" in n) or ("C" in n) or ("D" in n) or ("E" in n) or ("F" in n)or ("G" in n) or ("H" in n) or ("I" in n) or ("J" in n) or ("K" in n) or ("L" in n)or ("M" in n)\
+        or ("N" in n) or ("O" in n) or ("P" in n) or ("Q" in n) or ("R" in n) or ("S" in n) or ("T" in n) or ("U" in n) or ("V" in n) or ("W" in n) or ("X" in n) or ("Y" in n) or ("Z" in n):
+    n = (n.replace("A", " 10"));n = (n.replace("B", " 11"));n = (n.replace("C", " 12"));n = (n.replace("D", " 13"));n = (n.replace("E", " 14"));n = (n.replace("F", " 15"))
+    n = (n.replace("G", " 16"));n = (n.replace("H", " 17"));n = (n.replace("I", " 18"));n = (n.replace("J", " 19"));n = (n.replace("K", " 20"));n = (n.replace("L", " 21"));
+    n = (n.replace("M", " 22"));n = (n.replace("N", " 23"));n = (n.replace("O", " 24"));n = (n.replace("P", " 25"));n = (n.replace("Q", " 26"));n = (n.replace("R", " 27"));
+    n = (n.replace("S", " 28"));n = (n.replace("T", " 29"));n = (n.replace("U", " 30"));n = (n.replace("V", " 31"));n = (n.replace("W", " 33"));n = (n.replace("X", " 34"));
+    n = (n.replace("Y", " 35"));n = (n.replace("Z", " 36"));
 n = n.split()
 while len(n) > 0:
     fin = fin + int(n[-1]) * ((mantiss ** degr))
